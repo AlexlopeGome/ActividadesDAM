@@ -1,8 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="es" xml:lns="http://www.w3.org/1999/xhtml">
 <!DOCTYPE html>
-<html >
+<html lang="es">
 
 <!--
 HTML
@@ -13,9 +10,9 @@ fecha: Octubre 2021
 -->
 
 <head>
-	<meta charset="UTF-8"/><!-- para las nomenglaturas de cada una de los lenguajes-->
+	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <!-- vuelve al zoom de la pagina normal-->
+
 	<!-- polyfill para soportar CSS3 Media Queries en MS explorer viejos -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  <!--[if lt IE 9]>
@@ -24,7 +21,7 @@ fecha: Octubre 2021
 	  <![endif]-->
 	  
 	<!-- importante SEO para la etiqueta del navegador -->
-	<title>Titulo en Etiqueta del Navegador</title>
+	<title>HTML - modelo de partida</title>
 	
 	<!-- una fuente de Google, mejor en CSS -->
 	<link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -68,19 +65,28 @@ fecha: Octubre 2021
 
 	<!-- cabecera de pagina -->
 	<header>
-		<h1>MODIFICADO EN GITHUB.COM</h1>
-		<h2>... y vuelto a cambiar en localhost </h2>
+		<h1>HTML - modelo de partida</h1>
+		<h2> recordar actualizar el header y el titulo de la etiqueta </h2>
 		<br/>
 	</header>
 	
-	<!-- bloque de contenido de la pagina -->
+	<!-- bloque de contenido principal de la pagina -->
 	<main>
-		<article></article>
+		<article>
+			<h2>Titulo de este articulo</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga doloribus quasi tenetur, praesentium cumque minus neque fugiat quo tempora, nostrum, reprehenderit et optio voluptatibus est maxime temporibus provident alias. Magnam.</p>
+		</article>
+		
         <!-- aside se usa para contenido complementario y generalmente se muestra como una columna lateral pero podemos darle estilo -->
 		<aside></aside>
 
 	</main>
-    <article></article>
+
+	<!-- contenido secundario de la página -->
+    <article>
+		<h3>Titulo de articulo menos importante</h3>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, velit aut non, voluptas quia natus nesciunt minus dolor ea possimus repellat voluptates alias doloribus repudiandae fugit distinctio, iusto quas in!</p>
+	</article>
 
 
 	<!-- pie de pagina -->
