@@ -1,60 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-*{
-box-sizing: border-box;
-margin: 0px;
-padding: 0px;
-}
-        body {overflow: scroll;
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            overflow: hidden;
+
             height: 100vh;
             width: 100vw;
-            border-color:red ;
-            border-style:solid;
+            border-color: red;
+            border-style: solid;
             border-width: 10px;
-            padding: 10px;
-           
-    
+            padding: 6px;
+
+
         }
-    
 
-    #encabezado{
-        background-color: blue;
-        height: 60pt;
-    }
-         #fotoportada{
-             background-color: aqua;
-             height: 120pt;
 
-         }
-        #imagenportada{
+        #encabezado {
+            background-color: blue;
+            height: 60pt;
+        }
+
+        #fotoportada {
+            background-color: aqua;
+            height: 120pt;
+
+        }
+
+        #imagenportada {
             object-fit: cover;
             width: 100%;
             height: 100%;
         }
-        #cajaGrande{
-            width: 250pt;
+
+        figure {
+            overflow-y: scroll;
+            overflow-x: hidden;
             height: 250pt;
-            background-color: blue;
-            position: relative;
-        }       
-
-
-    #cajaChica{
-            width: 100pt;
-            height: 100pt;
-            background-color: brown;
-            position:sticky;
-            top: 50pt ;
-            left: 20pt ;
-    
-}
-    
+            margin-left: 30%;
+        }
 
         
     </style>
@@ -62,17 +57,50 @@ padding: 0px;
 
 <body>
     <header>
-<div id="encabezado">
-        <p>cabecera</p>
-    </div>
-</header>   
-  <div id ="fotoportada">
-      <img id= "imagenportada"src= "animales-increibles-1568101493.jpg"title="imgen de animales"/>
-  </div>
-  <div id="cajaGrande">
-<div id="cajaChica"></div>
-  </div>
+        <div id="encabezado">
+            <p>cabecera</p>
+        </div>
+    </header>
+    <div id="fotoportada">
+        <img id="imagenportada" src="animales-increibles-1568101493.jpg" title="imgen de animales" />
 
+    </div>
+    <div>
+        <figure <figure role="img" aria-labelledby="cow-caption">
+            <pre>
+        ___________________________
+    &lt; I'm an expert in my field. &gt;
+    __________¶¶_¶¶__¶¶_¶¶_¶
+    _________¶¶_¶¶_¶¶_¶¶_¶¶¶
+    _____¶¶¶¶¶____________¶¶¶¶¶¶¶
+    ___¶¶¶¶¶_______________¶¶¶¶¶¶¶
+    __¶¶¶¶¶__________________¶¶¶¶¶¶
+    __¶¶¶¶____________________¶¶¶¶
+    ___¶¶______________________¶¶¶
+    ___¶________________________¶¶¶¶
+    __¶¶_____¶¶¶______¶¶________¶¶¶¶¶¶¶
+    __¶_____¶¶¶¶_____¶¶¶¶¶______¶¶¶¶¶¶_¶
+    __¶____¶¶¶¶¶____¶¶¶¶¶¶¶¶____¶¶¶¶¶¶__¶
+    __¶¶__¶¶¶¶¶______¶¶¶¶¶¶¶___¶¶¶¶¶¶¶___¶
+    ___¶__¶¶¶__________¶¶¶¶___¶¶¶¶¶¶¶¶¶___¶
+    ___¶¶____________________¶¶¶¶¶¶¶¶¶¶___¶¶¶
+    ___¶¶¶_____¶¶¶¶¶¶_______¶¶¶¶¶¶¶¶¶¶¶___¶¶¶¶
+    ___¶¶¶¶¶___¶¶¶¶¶¶_____¶¶¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶
+    ___¶¶¶¶¶¶¶_________¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶
+    ___¶¶¶¶¶¶¶¶__¶¶¶___¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶_¶¶¶¶¶¶¶¶¶
+    ____¶¶¶¶¶¶¶¶¶¶¶¶__¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶
+    ____¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶¶ ¶¶¶¶¶¶¶¶¶¶
+    ____¶¶¶¶¶¶¶¶¶_¶¶¶¶¶¶¶_¶¶¶¶¶¶¶¶¶¶¶ ¶¶¶¶¶¶¶¶
+    __¶¶¶¶¶¶¶¶¶¶¶_________¶¶¶¶¶¶¶¶¶¶¶ ¶¶¶¶¶
+    __¶¶¶¶¶¶¶¶¶¶_________¶¶¶¶¶¶¶¶¶¶¶
+    ___¶¶¶¶¶¶¶_________¶¶¶¶¶¶¶¶¶¶¶¶
+    ___________________¶¶¶¶¶¶¶¶¶¶¶
+    ___________________¶¶¶¶¶¶¶¶¶¶
+    </pre>
+            <figcaption id="Panda">
+               El panda: Tiene un pelaje erizado y de color pardo y llevan en la cabeza una máscara blanca.
+            </figcaption>
+            </div>
 </body>
 
 </html>
