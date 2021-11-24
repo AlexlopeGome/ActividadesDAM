@@ -14,7 +14,7 @@
         }
 
         body {
-            overflow: hidden;
+            /* overflow: hidden; */
 
             height: 100vh;
             width: 100vw;
@@ -48,10 +48,13 @@
             overflow-y: scroll;
             overflow-x: hidden;
             height: 250pt;
-            margin-left: 30%;
-        }
+            margin-left: 0%;
+            display: flex;
+            flex-direction: row;
 
-        
+   
+      }
+       
     </style>
 </head>
 
@@ -98,17 +101,18 @@
     ___________________¶¶¶¶¶¶¶¶¶¶
     </pre>
             <figcaption id="Panda">
-               El panda: Tiene un pelaje erizado y de color pardo y llevan en la cabeza una máscara blanca.
+                El panda: Tiene un pelaje erizado y de color pardo y llevan en la cabeza una máscara blanca.
             </figcaption>
-            </div>
+    
 
-            <picture>
-                <source media="(max-width: 799px)" srcset="perro.gif">
-                <source media="(min-width: 800px)" srcset="perro.jpg">
-                <source media="(min-width: 800px)" srcset="perro.png">
-                <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva">
-
-            </picture>
+    <picture>
+        <source media="(max-width: 799px)" srcset="perro.gif">
+        <source media="(min-width: 800px)" srcset="perro1.jpg">
+        <source media="(min-width: 800px)" srcset="perro1.png">
+        <img src="perro1.jpg" alt="Chris standing up holding his daughter Elva">
+      
+    </picture>
+</div>
 </body>
 
 </html>
