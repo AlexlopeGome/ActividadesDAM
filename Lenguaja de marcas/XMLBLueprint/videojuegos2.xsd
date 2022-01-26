@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="videojuegos2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element  minOccurs="1" maxOccurs="99999" ref="videojuego"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="videojuego">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element minOccurs="1" ref="precio"/>
+                <xs:element ref="moneda"/>
+                <xs:element ref="consola"/>
+                <xs:element ref="web"/>
+            </xs:sequence>
+            <xs:attribute name="cod" use="required" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nombre" type="xs:string"/>
+    <xs:element name="precio" type="xs:integer"/>
+    <xs:simpleType name="moneda" base="xs:string" derivedBy="list"/>
+    <moneda>€ $</moneda>
+   </xs:simpleType>
+    <xs:element name="consola" type="xs:string"/>
+    <xs:element name="web" type="xs:NCName"/>
+</xs:schema>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<videojuegos2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Alejandro/Desktop/DAM/REPOSITOS/ActividadesDAM/Lenguaja%20de%20marcas/XMLBLueprint/videojuegos2.xsd">
+	<videojuego cod="1234">
+		<nombre>Super Mario 3D  LAN</nombre>
+		<precio>40</precio>
+		<moneda>€</moneda>
+		<consola>Nintendo 3D</consola>
+		<web>www.Supermario3s.com</web>
+	</videojuego >
+		<videojuego cod="1459">
+		<nombre>Formula 1 2022</nombre>
+		<precio>60</precio>
+		<moneda>€</moneda>
+		<consola>XBOX</consola>
+		<web>www.f1games.com</web>
+	</videojuego>
+</videojuegos2>

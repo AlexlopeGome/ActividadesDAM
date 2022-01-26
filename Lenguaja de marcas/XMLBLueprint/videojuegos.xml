@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vidiojuegos>
+	<videojuego cod="1234">
+		<nombre>Super Mario 3D  LAN</nombre>
+		<precio>40€</precio>
+		<consola>Nintendo 3D</consola>
+		<web>www.Supermario3s.com</web>
+	</videojuego >
+		<videojuego cod="1459">
+		<nombre>Formula 1 2022</nombre>
+		<precio>60€</precio>
+		<consola>XBOX</consola>
+		<web>www.f1games.com</web>
+	</videojuego>
+</vidiojuegos>
