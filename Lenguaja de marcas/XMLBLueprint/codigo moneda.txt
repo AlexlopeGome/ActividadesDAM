@@ -1,0 +1,7 @@
+<xs:element name="moneda">
+  <xs:simpletype>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="$|€"></xs:pattern>
+    </xs:restriction>
+  </xs:simpletype>
+</xs:element>
