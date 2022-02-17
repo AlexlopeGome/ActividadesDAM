@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dime que quieres comer</title>
+
+    <style>
+        h1{
+            color: red;
+        }
+        h2,h3,h4{
+           display: block; 
+           color: blue;
+        }
+        
+    </style>
+</head>
+
+<body onload="accion()"> <!-- ESte no sirve con el script en el head -->
+    <h1 id="Menu">Menu Mc Donals</h1>
+    <form>
+      <input type="string" id="comida" placeholder=""/>
+        <input type="button" onclick="name()" value="Nombre"/>
+
+
+    </form>
+    <h2>
+    <select name="Comida">
+        <option selected value="0"> Comida </option>
+            <optgroup label="Comida"> 
+            <option value="1">bigmag</option> 
+            <option value="2">macpollo</option> 
+            <option value="3">CBO</option> 
+        </optgroup>
+     </select>
+    </h1>
+    <h3>
+     <select name="Pebida">
+     <option selected value="0"> Postre </option>
+     <optgroup label="Bebida"> 
+     <option value="1">coca cola</option> 
+     <option value="2">Fanta</option> 
+     <option value="3">Agua</option> 
+    </select>
+    </h2>
+    <h4>
+    <select name="Postre">
+        <option selected value="0"> Postre </option>
+        <optgroup label="Bebida"> 
+        <option value="1">Mc Frury</option> 
+        <option value="2">fluta</option> 
+        <option value="3"> Yolgolino</option> 
+    </select>
+    </h3>
+ </optgroup> 
+
+</body>
+
+</html>
+

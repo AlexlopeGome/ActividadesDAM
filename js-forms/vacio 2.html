@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+    <style>
+        h1{
+            color: red;
+        }
+       
+        h2{
+           color:darkgreen; 
+           
+        }
+        div{
+            font-size: xx-large;
+           color: rgb(0, 0, 0);
+           transform: translate(700px, 20px);
+           
+        }
+
+
+h2 :hover ,div:hover {
+  background-color: yellow;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <h1 id="titulo">Dime tus datos</h1>
+    
+
+    <form>
+            <form action="/action_page.php">
+<h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" value="">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" value="">
+</h2>
+        <div id="titulo2"> Eres real
+            <input type="number" id="nro1" placeholder="50 + 70 = "/>
+            <input type="button" onclick="Comprobar()" value="Comprobar"/>
+        </div>
+          </form>
+          
+    </form>
+
+    <script> 
+            function Comprobar(){
+                let n1 = document.getElementById("nro1").value;
+                
+                let mensaje="";
+                if (n1!=120){
+                    mensaje="el numero " +n1 + " incorecto me estas tomado el pelo ";
+             
+                }else{
+                   
+                    mensaje=" el numero"+n1+ "corecto NO ERES UN ROOBOTT ";
+                }
+             window.alert(mensaje);
+            }
+
+        </script>
+
+</body>
+
+</html>
+
