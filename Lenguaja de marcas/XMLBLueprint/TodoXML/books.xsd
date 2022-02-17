@@ -16,8 +16,6 @@
                 <xs:element ref="price"/>
             </xs:sequence>
             <xs:attribute name="category" use="required" type="xs:NCName"/>
-            <xs:attribute name="author" use="required" type="xs:NCName"/>
-            <xs:attribute name="title" use="required" type="xs:NCName"/>
             <xs:attribute name="cover" type="xs:NCName"/>
         </xs:complexType>
     </xs:element>
@@ -31,15 +29,16 @@
     <xs:element name="price">
         <xs:complexType>
             <xs:simpleContent>
-                 <xs:extension base="xs:float">
+                <xs:extension base="xs:decimal">
                     <xs:attribute name="moneda" use="required">
-                            <xs:simpleType>
-                               <xs:restriction base="xs:string">
-                                    <xs:pattern value="$"/>
-                                    <xs:pattern value="Y"/>
-                                </xs:restriction>
-                            </xs:simpleType>
-                    </xs:attribute>
+                        <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:pattern value="¥"></xs:pattern>
+                          <xs:pattern value="€"></xs:pattern>
+                        </xs:restriction>
+                      </xs:simpleType>
+                     </xs:attribute>
+
                 </xs:extension>
             </xs:simpleContent>
         </xs:complexType>
